@@ -3,21 +3,25 @@
     padding: 0;
     margin: 0;
 }
-body{
-    height: 100vh;
-    
-}
+
 main{
-    height: calc(100% - 0px);
-    background-color: aqua;
+    
+    height: calc(100% - 90px);
     display: flex;
 }
 header{
-    background-color: rgb(51, 94, 31);
+    background-color: white;
 }
 .nav{
     background: rgb(45, 74, 207);
     height: 100%;
-    width: 10rem;
+    width: 15rem;
     flex-direction: column;
+   margin-top: 54px;
+}
+.contenuto{
+    margin-top: 54px;
+    height: 100%;
+    width: calc(100% - 10rem);
+    overflow: auto;
 }
