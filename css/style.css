@@ -2,8 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
-
+body{
+    font-size: 12px;
+}
 main{
     
     height: calc(100% - 90px);
@@ -18,10 +21,15 @@ header{
     width: 15rem;
     flex-direction: column;
    margin-top: 54px;
+   position: fixed;
 }
 .contenuto{
     margin-top: 54px;
     height: 100%;
-    width: calc(100% - 10rem);
+    width: calc(100% - 0rem);
     overflow: auto;
+    padding-left: 17.8%;
+}
+.image{
+    width: 7%;
 }
