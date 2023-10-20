@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="py-3">
         <section class="d-flex align-items-center">
             <div class="container">
                 <div class="row">
@@ -44,19 +44,103 @@
         </section>
     </header>
     <nav>
-        <div class="container">
+        <div class="container h-100">
             <div class="row">
                 <div class="col-12">
-                    <div class="d-flex py-2">
-                        <i class="fa-solid fa-house " style="color: #ffffff;"></i>
-                        <div class="text-light">home</div>
+                    <div class="d-flex align-items-center py-2">
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <div class="text-light offset-1">home</div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+                        <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
+                        <div class="text-light offset-1">stats</div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
+                        <div class="text-light offset-1">signal</div>
+                    </div>
+                    <div class="d-flex align-items-center h-100">
+                        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                        <div class="text-light offset-1">admin</div>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
     <main>
-
+        <section class="boolean">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-6 d-flex ">
+                        <div class="col fs-2">Boolean</div>   
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                        <div class="col-8">studenti online negli ultimi 30 anni</div>
+                        <div class="col-4"> nuovo studente
+                            <i class="fa-regular fa-square-plus fs-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-flex ">
+                        <span class="badge rounded-pill bg-dark ">3 app</span>
+                            <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                            <span class="badge rounded-pill bg-dark">3 app</span>
+                            <span class="badge rounded-pill bg-dark">3 app</span>
+                            <span class="badge rounded-pill bg-dark">3 app</span>
+                    </div>
+                    <div class="col-6">
+                        <div class="fs-1">125</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 border  p-4 rounded-3">
+                        <div class="fs-2">prossime classi</div>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                  <th style="width: 0;" >Nome</th>
+                                  <th style="width: auto;" >data inizio</th>
+                                  <th style="width: 0;" class="d-none d-md-table-cell" >roi</th>
+                                  <th style="width: 0;" class="d-none d-md-table-cell" >stato</th>
+                                  <th style="width: 0;" class="d-none d-md-table-cell" >azioni</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Mario Rossi</td>
+                                  <td class="d-none d-md-table-cell">6</td>
+                                  <td class="d-none d-md-table-cell">contenuto</td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>Gabriele Arcangelo</td>
+                                  <td class="d-none d-md-table-cell">4</td>
+                                  <td class="d-none d-md-table-cell">contenuto</td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>Bruno Giordano</td>
+                                  <td class="d-none d-md-table-cell">10</td>
+                                  <td class="d-none d-md-table-cell">contenuto</td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>Alberto Lupo</td>
+                                  <td class="d-none d-md-table-cell">9</td>
+                                  <td class="d-none d-md-table-cell">contenuto</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>

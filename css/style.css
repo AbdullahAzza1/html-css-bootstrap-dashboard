@@ -13,18 +13,21 @@ body{
 header{
     height: 5rem;
     width: 100%;
-    background-color: aqua;
 }
 nav, main{
     height: calc(100% - 5rem);
 }
 nav{
-    background-color: blueviolet;
+   background-color:#051E34;
     width: 10rem;
+    background-image: url(/img/sidebar-bg.png);
 }
 main {
     width: calc(100% - 10rem);
     overflow-y: auto;
-    background: greenyellow;
     overflow: auto;
+}
+.boolean{
+    background-color: #165bba;
+    color: white;
 }
