@@ -5,31 +5,26 @@
     
 }
 body{
-    font-size: 12px;
-}
-main{
-    
-    height: calc(100% - 90px);
+    height: 100vh;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 header{
-    background-color: white;
+    height: 5rem;
+    width: 100%;
+    background-color: aqua;
 }
-.nav{
-    background: rgb(45, 74, 207);
-    height: 100%;
-    width: 15rem;
-    flex-direction: column;
-   margin-top: 54px;
-   position: fixed;
+nav, main{
+    height: calc(100% - 5rem);
 }
-.contenuto{
-    margin-top: 54px;
-    height: 100%;
-    width: calc(100% - 0rem);
+nav{
+    background-color: blueviolet;
+    width: 10rem;
+}
+main {
+    width: calc(100% - 10rem);
+    overflow-y: auto;
+    background: greenyellow;
     overflow: auto;
-    padding-left: 17.8%;
-}
-.image{
-    width: 7%;
 }

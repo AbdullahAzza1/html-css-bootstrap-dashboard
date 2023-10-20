@@ -12,225 +12,53 @@
 </head>
 
 <body>
-    <header class="fixed-top">
-        <section class="navbar">
+    <header>
+        <section class="d-flex align-items-center">
             <div class="container">
-                <div class="row ">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="col" src="img/logo.svg" alt="">
+                <div class="row">
+                    <div class="col-auto d-flex align-items-center">
+                        <img class="img-fluid" src="img/logo.svg" alt="">
                     </div>
-                    <input type="search" id="form1" class="form-control col offset-1 "
-                        placeholder="prova a cercare, lezioni di laravel" aria-label="Search" />
-                    <i class="fa-solid fa-list col"></i>
-                    <i class="fa-solid fa-circle-question col"></i>
-                    <i class="fa-solid fa-ellipsis-vertical col"></i>
-                    <i class="fa-solid fa-bell col" style="color: #d66000;"></i>
+                    <div class="col d-flex align-items-center">
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                            <input type="text" class="form-control" placeholder=""
+                                aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        </div>
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        <i class="fa-solid fa-bell " style="color: #d66000;"></i>
+                    </div>
                 </div>
             </div>
         </section>
     </header>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex py-2">
+                        <i class="fa-solid fa-house " style="color: #ffffff;"></i>
+                        <div class="text-light">home</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
-        <section class="nav ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="col d-flex py-2">
-                            <i class="fa-solid fa-house " style="color: #ffffff;"></i>
-                            <div class="text-light">home</div>
-                        </div>
-                        <div class="col d-flex py-2">
-                            <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
-                            <div class="text-light">stats</div>
-                        </div>
-                        <div class="col d-flex py-2">
-                            <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
-                            <div class="text-light">signal</div>
-                        </div>
-                        <div class="col d-flex mt-5">
-                            <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
-                            <div class="text-light">admin</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contenuto">
-            <div class="container">
-                <div class="row bg-primary">
-                    <div class="col-6">
-                        <div class="col fs-2">Boolean
-                            <span class="badge rounded-pill bg-dark fs-6">piano blaze</span>
-                        </div>
-                        <div class="row py-3 mb-4">
-                            <span class="badge rounded-pill bg-dark fs-6 col-2">3 app</span>
-                            <i class="fa-solid fa-angles-right col-1 " style="color: #ffffff;"></i>
-                            <span class="badge rounded-pill bg-dark fs-6 col-2">3 app</span>
-                            <span class="badge rounded-pill bg-dark fs-6 col-2">3 app</span>
-                            <span class="badge rounded-pill bg-dark fs-6 col-2">3 app</span>
-                        </div>
-                    </div>
-                    <div class=" row col-6 text-light d-flex align-items-center">
-                        <div class="col-6">studenti online negli ultimi 30 giorni
-                            <div class="fs-1">125</div>
-                        </div>
-                        <div class="col-6">nuovo studente
-                            <i class="fa-regular fa-square-plus fs-1"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container ">
-                <div class="flow">
-                    <div class=" col-8 border m-2 p-4 rounded-3">
-                        <div class="fs-2">prossime classi</div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-4">nome</div>
-                            <div class="col-2">data inizio</div>
-                            <div class="col-2">roi</div>
-                            <div class="col-2">stato</div>
-                            <div class="col-2">azioni</div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center">
-                            <img class="image col-1" src="img/class-avatar.jpg" alt="">
-                            <div class="col-3">classe 75</div>
-                            <div class="col-2">15/feb/2021</div>
-                            <div class="col-2">20%</div>
-                            <span class="badge rounded-pill bg-success col-1">done</span>
-                            <div class="row col offset-1">
-                                <i class="fa-solid fa-square-pen col-2 fs-3"></i>
-                                <i class="fa-solid fa-trash col-2 fs-3"></i>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                </div>
-                <div class="col-8 border m-2 p-4 rounded-3 ">
-                    <div class="fs-2">F.A.Q.</div><hr>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                              Accordion Item #1
-                            </button>
-                          </h2>
-                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              Accordion Item #2
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                              Accordion Item #3
-                            </button>
-                          </h2>
-                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-4">
-                   yjtrj
-                </div>
-            </div>
-        </section>
+
     </main>
+
 </body>
 
 </html>
