@@ -31,3 +31,191 @@ main {
     background-color: #165bba;
     color: white;
 }
+.img-avatar{
+    max-width: 2rem;
+}
+/**<section class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8 border m-1 p-4 rounded-3">
+                            <div class="fs-2">prossime classi</div>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 0;">Nome</th>
+                                        <th style="width: 0;" class="d-none d-md-table-cell">data inizio</th>
+                                        <th style="width: 0;" class="d-none d-md-table-cell">roi</th>
+                                        <th style="width: 0;" class="d-none d-md-table-cell">stato</th>
+                                        <th style="width: 0;" class="d-none d-md-table-cell">azioni</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">15/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-success ">done</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">16/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-success ">done</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">17/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-warning ">process</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">18/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-success ">done</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">19/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-danger ">falled</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">20/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-success ">done</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">21/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-danger ">falled</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-avatar col-3" src="img/class-avatar.jpg" alt="">classe 75
+                                        </td>
+                                        <td class="d-none d-md-table-cell">22/feb/2021</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
+                                        <td class="d-none d-md-table-cell"><span
+                                                class="badge rounded-pill bg-success ">done</span></td>
+                                        <td class="d-none d-md-table-cell"><i class="fa-solid fa-square-pen  fs-3"></i>
+                                            <i class="fa-solid fa-trash  fs-3"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                ca
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 border m-1 p-4 rounded-3">
+                            <div class="fs-2">F.A.Q.</div>
+                            <hr>
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header " id="heading1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            Elemento Accordion #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapse1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample1" role="region" aria-labelledby="heading1">
+                                        <div class="accordion-body">
+                                            Vestibulum hendrerit ultrices nibh, sed pharetra lacus ultrices eget. Morbi
+                                            et
+                                            ipsum et sapien dapibus facilisis. Integer eget semper nibh. Proin enim
+                                            nulla,
+                                            egestas ac rutrum eget, ullamcorper nec turpis.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header " id="heading2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false"
+                                            aria-controls="collapse2">
+                                            Elemento Accordion #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapse2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample1" role="region" aria-labelledby="heading2">
+                                        <div class="accordion-body">
+                                            Vestibulum hendrerit ultrices nibh, sed pharetra lacus ultrices eget. Morbi
+                                            et
+                                            ipsum et sapien dapibus facilisis. Integer eget semper nibh. Proin enim
+                                            nulla,
+                                            egestas ac rutrum eget, ullamcorper nec turpis.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header " id="heading3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
+                                            aria-controls="collapse3">
+                                            Elemento Accordion #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample1" role="region" aria-labelledby="heading3">
+                                        <div class="accordion-body">
+                                            Vestibulum hendrerit ultrices nibh, sed pharetra lacus ultrices eget. Morbi
+                                            et
+                                            ipsum et sapien dapibus facilisis. Integer eget semper nibh. Proin enim
+                                            nulla,
+                                            egestas ac rutrum eget, ullamcorper nec turpis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
