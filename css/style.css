@@ -34,7 +34,10 @@ main {
 .img-avatar{
     max-width: 2rem;
 }
-/**<section class="container-fluid">
+.img-stats{
+    width: 15rem;
+}
+/**<section class="container-fluid">   <i class="fa-solid fa-bell " style="color: #d66000;"></i>
             <div class="row">
                 <div class="container">
                     <div class="row">
